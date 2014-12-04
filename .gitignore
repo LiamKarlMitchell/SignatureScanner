@@ -45,3 +45,5 @@ Temporary Items
 .svn
 *.user
 *.vcproj
+*.suo
+*.ncb

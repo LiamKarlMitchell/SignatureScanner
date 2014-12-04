@@ -32,10 +32,10 @@ DWORD_PTR address = signature_scanner->search("3AB2DFAB????????3FBACD300200A1XXX
 
 Find Second instance 90/NOP
 ````
-DWORD_PTR address = signiture_scanner->search("90");
+DWORD_PTR address = signature_scanner->search("90");
 if (address!=NULL)
 {
-address = signiture_scanner->search("90",0,true,address)
+address = signature_scanner->search("90",0,true,address)
 if (address!=NULL)
 {
 // Found it at address
@@ -53,7 +53,7 @@ else
 
 Finding Text
 ````
-DWORD_PTR address = signiture_scanner->search_text("Hello World");
+DWORD_PTR address = signature_scanner->search_text("Hello World");
 ````
 
 

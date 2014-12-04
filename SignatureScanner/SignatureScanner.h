@@ -1,8 +1,8 @@
 // Something I released too. Its a Signature scanning libary.
 // I did a youtube video showing how to use it here: https://www.youtube.com/watch?v=WmHDQzfELxk
 
-#ifndef __SignitureScanner_H
-#define __SignitureScanner_H
+#ifndef __SignatureScanner_H
+#define __SignatureScanner_H
 
 #include "stdafx.h"
 
