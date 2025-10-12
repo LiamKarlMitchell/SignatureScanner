@@ -1,0 +1,23 @@
+[package]
+name = "signature-scanner-rust"
+version = "0.1.0"
+edition = "2021"
+description = "Rust implementation of signature scanner for memory pattern matching"
+license = "MIT"
+
+[dependencies]
+memmap2 = "0.9"
+thiserror = "1.0"
+log = "0.4"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = [
+    "winnt",
+    "memoryapi", 
+    "processthreadsapi",
+    "psapi",
+    "libloaderapi",
+    "errhandlingapi",
+    "minwindef",
+    "basetsd"
+] }

@@ -1,6 +1,16 @@
 # Signature Scanner
 
-I wanted a nicer signiture scanner that worked the way I wanted. Include however you want in your own DLL project.
+A cross-platform signature scanning library for finding patterns in memory/data buffers. This monorepo contains implementations in multiple programming languages.
+
+## Implementations
+
+- **[C++](implementations/cpp/)** - Original implementation with Visual Studio project
+- **[Node.js](implementations/nodejs/)** - JavaScript/Node.js port for buffer scanning  
+- **[Rust](implementations/rust/)** - Rust implementation (planned)
+
+## What is Signature Scanning?
+
+Signature scanning allows you to find patterns in memory or data buffers using hex signatures with wildcards. This is useful for:
 
 <center>Video about Signiture Scanning
 
