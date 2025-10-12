@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv:*)",
+      "Bash(rmdir:*)",
+      "Bash(cargo test)",
+      "Bash(cargo check:*)",
+      "Bash(cargo test:*)",
+      "Bash(timeout 10 cargo build --examples)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "signature-scanner-nodejs",
+  "version": "0.1.0",
+  "description": "Node.js implementation of signature scanner for memory/buffer pattern matching",
+  "main": "SigScanner.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["signature", "scanner", "pattern", "memory", "buffer"],
+  "author": "",
+  "license": "MIT"
+}
